@@ -28,11 +28,42 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  margin: 0.1rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.profile-container {
+  border: 0.1rem solid;
+  background-color: #f8f8fa;
+  height: 200px;
+  margin: 0.9rem;
+  display: flex;
+}
+
+.picture {
+  height: 10rem;
+  margin: 20px;
+}
+
+.prop-list {
+  margin-top: 0.5rem;
+  text-align: left;
+  line-height: 0.4;
+}
+
+.container {
+  border: 0.1rem solid;
+  background-color: #f8f8fa;
+  height: 2rem;
+  margin: 0.9rem;
+  text-align: left;
+  line-height: 0.4;
+}
+
+.colorBox-container{
+  border: 0.1rem solid;
+  margin: 0.9rem;
+  line-height: 0.4;
 }
